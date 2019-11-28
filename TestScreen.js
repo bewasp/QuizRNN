@@ -16,7 +16,7 @@ export default class TestScreen extends React.Component {
     return (
       <View>
         <View>
-          <Text> TestScreen Works</Text>
+          <Text> Test</Text>
         </View>
 
       </View>

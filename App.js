@@ -46,14 +46,14 @@ export default class App extends React.Component {
   render() {
     let tests = [];
 
-    for (let i = 0; i < 5; i++) {
+    for (let i = 1; i < 5; i++) {
       tests.push(
         <TouchableOpacity
           key={i}
           onPress={() => {
             this.goToTest(`Test #${i}`);
           }}>
-          <Text>Go to Test #{i}</Text>
+          <Text>GO TO TEST NUMBER: #{i}</Text>
         </TouchableOpacity>,
       );
     }
@@ -68,7 +68,7 @@ export default class App extends React.Component {
               this.goToResults();
             }}>
             <Text style={{textAlign: 'center', fontSize: 18}}>
-              Go to Result
+              GO TO RESULTS OF TESTS
             </Text>
           </TouchableOpacity>
         </View>

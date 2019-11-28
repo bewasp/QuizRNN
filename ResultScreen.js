@@ -15,11 +15,7 @@ export default class ResultScreen extends React.Component {
   render() {
     return (
       <View>
-        <Text>ResultScreen Works</Text>
-
-        <View>
-
-        </View>
+        <Text>Results</Text>
       </View>
     );
   }
